@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+img {
+    width: 100%;
+    z-index: -40;
+    position:absolute;
+}
+
+h1 {
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    margin-left: 31%;
+    margin-top: 10%;
+}
+
+input {
+    width: 350px;
+    height: 55px;
+    border-radius: 2rem;
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 13%;
+}
+
+.Tasks {
+    position:absolute;
+    z-index:1;
+    margin-top: 20%;
+    margin-left: 25%;
+    width:40%;
+    height:50vh;
+    background-color: white;
+    border-radius: 0.3rem;
+    box-shadow: 0px 0px 20px 0px gray;
+    padding:0;
+    overflow: scroll;
+}
+
+.Tasks ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width:100%;
+    border-radius: inherit;
+}
+
+.Tasks ul li {
+    padding: 0.8rem 1rem 0.8rem 1rem;
+    border-style: solid;
+    border-color: rgb(133, 62, 133);
+    border-radius: inherit;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+.Tasks ul li:hover {
+    background-color: rgb(133, 62, 133);
+    color:white;
+    border-radius: inherit;
+}
+
+button {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 5rem;
+    top:103%;
+    right: 43%;
+    z-index: 2;
+    position: absolute;
+}
+
+@media  screen and (max-width: 600px) {
+    img {
+        width: 120%;
+        z-index: -40;
+        position:absolute;
+    }
+    
+    h1 {
+        position: absolute;
+        color: white;
+        font-size: 25px;
+        margin-left: 31%;
+        margin-top: 10%;
+    }
+    
+    input {
+        width: 340px;
+        height: 55px;
+        border-radius: 2rem;
+        position: absolute;
+        margin-left: 14%;
+        margin-top: 20%;
+    }
+    
+    .Tasks {
+        position:absolute;
+        z-index:1;
+        margin-top: 40%;
+        margin-left: 15%;
+        width: 85%;
+        height:50vh;
+        background-color: white;
+        border-radius: 0.3rem;
+        box-shadow: 0px 0px 20px 0px gray;
+        padding:0;
+        overflow: scroll;
+    }
+
+    button {
+        height: 3rem;
+        width: 3rem;
+        border-radius: 5rem;
+        top: 11%;
+        right: 3%;
+        z-index: 2;
+        position: absolute;
+    }
+    
+    
+    
+}
